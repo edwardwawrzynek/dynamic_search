@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+<ShortName>Dynamically Selected Engine</ShortName>
+<Description>Search using a search engine dynamically selected using some external factor.</Description>
+<InputEncoding>UTF-8</InputEncoding>
+<LongName>Dynamically Selected Engine Search</LongName>
+<Url type="text/html" method="get" template="http://127.0.0.1:5656/search?q={searchTerms}"/>
+<Url type="application/x-suggestions+json" template="http://127.0.0.1:5656/suggest?q={searchTerms}"/>
+</OpenSearchDescription>
