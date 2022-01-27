@@ -8,3 +8,4 @@ edition = "2018"
 [dependencies]
 rocket = "0.5.0-rc.1"
 urlencoding = "2.1.0"
+lazy_static = "1.4.0"
